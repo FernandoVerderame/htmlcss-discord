@@ -84,7 +84,7 @@ h1 {
     color: white;
 }
 
-p,span{
+.paragraph-header{
     font-size: 20px;
     text-align: center;
     padding: 40px;
@@ -120,7 +120,7 @@ p,span{
 }
 
 .grey-main {
-    background-color: #D3D3D3;
+    background-color: #E5E5E5;
     min-height: 600px;
     display: flex;
     flex-direction: row;
@@ -136,22 +136,51 @@ p,span{
 .blue-box {
     flex-basis: 60%;
     min-height: 500px;
-    background-color: #1E90FF;
-    border: 2px dashed black;
+    background-color: white;
     display: flex;
 }
     
 .lightpink-box {
     flex-basis: 40%;
     min-height: 500px;
-    background-color: #FFC0CB;
-    border: 2px dashed black;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
 }
   
+h2 {
+    font-size: 50px;
+    color: #23272A;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+.paragraph-main-1 {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.paragraph-main-2 {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.wave {
+    height: 100px;
+    background-image: url(/img/wave.svg);
+    opacity: calc(0.1);
+}
+
+.wave.transform {
+    transform: rotate(180deg);
+}
 
 .grey-main-2 {
-    background-color: #D3D3D3;
+    background-color: #E5E5E5;
     min-height: 1000px;
     display: flex;
     flex-direction: row;
@@ -161,12 +190,34 @@ p,span{
 .green-block {
     flex-basis: 1200px;
     min-height: 900px;
-    background-color: #EE82EE;
-    border: 2px dashed black;
     display: flex;
     align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 22px;
+    margin-bottom: 80px;
 }
 
+.green-block, h2 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+.button-download.aside {
+background-color: #8EA1E1;
+color: white;
+}
+
+.stars-background {
+    background-image: url(/img/stars.svg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;}
 
 /* Footer */
 .five-block{
