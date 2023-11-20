@@ -43,6 +43,10 @@
     background-color: #255EE9;
 }
   
+.link-nav {
+    cursor: pointer;
+}
+
 .right-nav {
     flex-basis: 20%;
     min-height: 40px;
@@ -223,7 +227,7 @@ color: white;
 .five-block{
     width: 1200px;
     display: flex;
-    padding-bottom: 40px;
+    margin-top: 60px;
 }
 
 .black-block-1 {
@@ -238,17 +242,48 @@ color: white;
 .pink-block {
     flex-basis: 40%;
     min-height: 500px;
-    background-color: #F08080;
-    border: 2px dashed black;
     display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.title-footer {
+    font-size: 35px;
+    color: #7289DA;
+}
+
+.italian-flag {
+    height: 18px;
+}
+
+.italian-nation {
+    color: white;
+    cursor: pointer;
+}
+
+.icons {
+    font-size: smaller ;
+    cursor: pointer;
 }
 
 .lightgreen-block {
     flex-basis: 15%;
     min-height: 500px;
-    background-color: #20B2AA;
-    border: 2px dashed white;
     display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 20px;
+    color: #7087D7;
+}
+
+li {
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    list-style-type: none;
+    padding: 8px 0;
 }
 
 
@@ -267,7 +302,6 @@ color: white;
 
 .aside-block{
     min-height: 70px;
-    background-color: #7FFFD4;
     width: 1200px;
     display: flex;
     flex-direction: row;
@@ -276,15 +310,14 @@ color: white;
 }
 
 .logo-block {
-    background-color: #FFB6C1;
     min-height: 30px;
     width: 60px;
     display: flex;
 }
 
-.button-block {
-    background-color: #FFB6C1;
-    min-height: 30px;
-    width: 60px;
-    display: flex;
+.button-signin {
+    background-color: #8EA1E1;
+    color: white;
+    width: 80px;
+    padding: 10px;
 }
